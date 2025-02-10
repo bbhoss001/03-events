@@ -9,7 +9,7 @@ on:
       - 'dev-*' ## dev-new; dev-this-is-new
       - 'feat/**' ## feat/new feat/this/is/new
     paths-ignore:
-      - '.github/workflow/*'
+      - '.github/workflows/*'
     
 jobs:
   deploy:
